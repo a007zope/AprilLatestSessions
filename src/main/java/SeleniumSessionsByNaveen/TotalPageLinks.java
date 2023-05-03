@@ -18,7 +18,7 @@ public class TotalPageLinks {
 	public static void main(String[] args) {
 
 		WebDriverManager.chromedriver().setup();
-
+// chromedriver
 		ChromeOptions a = new ChromeOptions();
 		a.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new  ChromeDriver(a);
